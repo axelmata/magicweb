@@ -2,8 +2,10 @@ import { NavbarTop } from "@/components";
 
 export default function Home() {
   return (
-    <h1>
-        Mi pagina principal
-    </h1>
+   <div>
+        {/* MI contenido de bienvenida */}
+        <h1>Bienvenidos a mi magica web</h1>
+        {/* animaciones */}
+   </div>
   )
 }

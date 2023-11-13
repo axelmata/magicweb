@@ -7,7 +7,7 @@ export default function MypageLayout({
  children: React.ReactNode;
 }) {
   return (
-    <div>
+    <div className='px-5'>
         <NavbarTop/>
         <Sidebar/>
         {children}
