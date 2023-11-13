@@ -1,10 +1,10 @@
-import { NavbarTop } from "@/components";
+import { WelcomeHome } from "@/components";
 
 export default function Home() {
   return (
    <div>
         {/* MI contenido de bienvenida */}
-        <h1>Bienvenidos a mi magica web</h1>
+          <WelcomeHome/>
         {/* animaciones */}
    </div>
   )

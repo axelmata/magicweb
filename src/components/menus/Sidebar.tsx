@@ -52,7 +52,7 @@ export const Sidebar = () => {
 
         <IoCloseOutline
           size={ 50 }
-          className="absolute top-5 right-5 cursor-pointer"
+          className="absolute top-5 right-5 cursor-pointer text-white"
           onClick={ () => closeMenu() }
         />
 
@@ -62,8 +62,9 @@ export const Sidebar = () => {
           <IoSearchOutline size={ 20 } className="absolute top-2 left-2" />
           <input
             type="text"
+            color='white'
             placeholder="Buscar"
-            className="w-full bg-black rounded pl-10 py-1 pr-10 border-b-2 text-xl border-skybg-blue-400 focus:outline-none focus:border-blue-500"
+            className="w-full bg-white rounded pl-10 py-1 pr-10 border-b-2 text-xl border-skybg-blue-400 focus:outline-none focus:border-blue-500"
           />
         </div>
 
@@ -71,7 +72,7 @@ export const Sidebar = () => {
 
         <Link
           href="/about"
-          className="flex items-center mt-10 p-2 hover:bg-blue-400 hover:text-black rounded transition-all"
+          className="flex items-center mt-10 p-2 hover:bg-blue-400 hover:text-black rounded transition-all text-white"
         >
           <IoPersonAddOutline size={ 30 } />
           <span className="ml-3 text-xl">Sobre mí</span>
@@ -79,7 +80,7 @@ export const Sidebar = () => {
 
         <Link
           href="/projects"
-          className="flex items-center mt-10 p-2 hover:bg-blue-400 hover:text-black rounded transition-all"
+          className="flex items-center mt-10 p-2 hover:bg-blue-400 hover:text-black rounded transition-all text-white"
         >
           <IoBagCheckOutline  size={ 30 } />
           <span className="ml-3 text-xl">Proyectos</span>
@@ -87,7 +88,7 @@ export const Sidebar = () => {
 
         <Link
           href="/hobbie"
-          className="flex items-center mt-10 p-2 hover:bg-blue-400 hover:text-black rounded transition-all"
+          className="flex items-center mt-10 p-2 hover:bg-blue-400 hover:text-black rounded transition-all text-white"
         >
           <IoFootballOutline size={ 30 } />
           <span className="ml-3 text-xl">Hobbies</span>

@@ -1,5 +1,5 @@
+import { NavbarTop } from '@/components';
 import { Sidebar } from '@/components/menus/Sidebar';
-import { NavbarTop } from '../../components/menus/NavbarTop';
 
 export default function MypageLayout({
  children

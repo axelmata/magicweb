@@ -33,12 +33,12 @@ export const NavbarTop = () => {
 
     return (
         <div className="w-full py-2 sticky">
-            <nav className="flex px-4 justify-between bg-gradient-to-r from-blue-900 to-indigo-800 rounded-lg h-20 items-center">
+            <nav className="flex px-4 justify-between bg-gradient-radial from-blue-800 to-indigo-900 rounded-lg h-20 items-center">
                 <div className="container-nav">
                     <Link href="/">
                         <div className="h-8 flex items-center text-green-100 hover:text-cyan-400 rounded-s-md transition duration-300 border-slate-300  sm:text-2xl">
                             <IoLogoReact size={35} className="mx-1" />
-                            <p>Mi magico mundo</p>
+                            <p>AxelDevops</p>
                         </div>
                     </Link>
                 </div>
